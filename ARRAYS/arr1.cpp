@@ -3,8 +3,9 @@
 
 int main() {
     int arr[] = {5, 2, 9, 1, 5, 6};
+// 'n' now holds the number of elements in 'arr' (which is 6). 
     int n = sizeof(arr) / sizeof(arr[0]);
-
+// Here sort is a function
     std::sort(arr, arr + n);
 
     std::cout << "Sorted array in ascending order: ";
